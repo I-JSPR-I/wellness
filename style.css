@@ -1,6 +1,7 @@
 .carousel {
   margin-bottom: 4rem;
   position: relative;
+    margin-top: 110px;
 }
 
 .carousel-inner img {
@@ -9,9 +10,8 @@
   left: 0;
   height: auto
   object-fit: containt !important;
-  display: block;
+  display: flex;
 }
-
 .carousel-item {
-  height: 50rem;
+  height: 30rem;
 }

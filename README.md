@@ -1,0 +1,5 @@
+-header overlapt andere dingen
+-smooth scroll zonder javascript
+-javascript toevoegen
+-accomodatie appart
+-form toevoegen

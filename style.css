@@ -15,3 +15,16 @@
 .carousel-item {
   height: 30rem;
 }
+.tekstprijslijst{
+    font-size: 20px;
+    font-family: Helvetica Neue;
+    margin-bottom: 50px;
+   
+}
+.tekstprijslijst p{
+    margin: 5px;
+    text-align: center;
+}
+.tab{
+    margin-left: 100px;
+}

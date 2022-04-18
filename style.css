@@ -28,3 +28,18 @@
 .tab{
     margin-left: 100px;
 }
+.forum input{
+    margin-bottom: 20px;
+
+}
+.forum select{
+    margin-bottom:20px;
+}
+footer
+{
+    background-color: black;
+    color: white;
+}
+footer p{
+    align-content: center;
+}

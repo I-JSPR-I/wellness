@@ -223,7 +223,67 @@
 		</div>
     </div>
              
-   <div id="reserveren"></div>
-      </div>
+   <div id="reserveren">
+  
+       <h2>Reservatie</h2>
+       		<p><b>Hier kunt u uw gegevens ingeven voor te reserveren.</b></p>
+        <form class="form">
+            <div class="forum">
+            <input type="text" class="form-control" placeholder="VoorNaam" id="name" required>
+            <input type="text" class="form-control" placeholder="Achternaam" id="lastname" required>
+            <input type="email" class="form-control" placeholder="E-mail" id="email" required>
+            <input type="tel" class="form-control" placeholder="Telefoonnummer" id="tel" required>
+                
+            
+            <p><b>Voor hoeveel personen boekt u?</b></p>
+            <select id="aantal" name="aantal">
+                <option value="1">1 Persoon</option>
+                <option value="2">2 Personen</option>
+                <option value="3">3 Personen</option>
+                <option value="4">4 Personen</option>
+                <option value="5">5 Personen</option>
+                <option value="6">6 Personen</option>
+                <option value="7">7 Personen</option>
+                <option value="8">8 Personen</option>
+            </select>
+            <div>
+                <p><b>Wilt u graag opgehaald worden?</b></p>
+                <input type="radio" id="ja" name="vervoer" value="ja">
+                <label for="ja">Ja</label>
+                <input type="radio" id="nee" name="vervoer" value="nee">
+                <label for="nee">Nee</label>
+            </div>
+            <div>
+                <p><b>Welke accomodatie wilt u boeken?</b></p>
+                <input type="checkbox" name="zwembad" onclick="onlyOne(this)"/>
+                <label>Zwembad</label>
+                <p></p>
+                <input type="checkbox" name="sauna" onclick="onlyOne(this)"/>
+                <label>Sauna</label>
+                <p></p>
+                <input type="checkbox" name="stoombad" onclick="onlyOne(this)"/>
+                <label>Turks Stoombad</label>
+                <p></p>
+                <input type="checkbox" name="infra" onclick="onlyOne(this)"/>
+                <label>Infraroodcabine</label>
+                <p></p>
+                <input type="checkbox" name="bubbel" onclick="onlyOne(this)"/>
+                <label>Bubbelbad</label> 
+                <p></p>
+            </div>
+            <button type="submit" class="btn btn-outline-warning">Reserveer!</button>
+                </div>
+        </form>
+            
+    </div>
+        </div>
+          <footer class="p-5 mt-5" id="footer">
+        <div class="d-flex justify-content-between">
+            <p>Wellness Spa Club<br />Lorem ipsum dolor sit amet.</p><p>  facilisi labore utfr sea duis</p>
+            <p>"Duo autem sed magna aliquyam et facilisi labore ut<br />invidunt stet diam sed sea duis feugiat euismod
+                <p>commodo dolore nonumy sea et dolor luptatum at diam"</p>
+            <p>Lorem ipsum dolor sit amet. Eum obcaecati neque et quaerat sunt et quos libero.<br />et quaerat sunt et quos libero.<br />Lorem ipsum dolor sit amet. Eum obcaecati neque et quaerat sunt et quos libero.</p>
+        </div>
+    </footer>
 </body>
 </html>
